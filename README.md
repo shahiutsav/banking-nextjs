@@ -111,7 +111,7 @@ To deploy Horizon for production, you can build the application and then host it
 
    Make sure to set environment variables in your production environment similar to [`.env.example`](./.env.example) but ensure they are securely managed.
 
-# Issue Monitoring with Sentry
+## Issue Monitoring with Sentry
 
 Sentry is integrated into Horizon to help monitor and track issues in real-time. To view and manage issues:
 
