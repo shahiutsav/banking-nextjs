@@ -2,7 +2,7 @@
 
 Horizon is a full-fledged banking and budgeting application built using the latest NextJS. It leverages **[Appwrite](https://appwrite.io/)** for the backend services, **[Plaid](https://plaid.com/)** for bank communication, **[Dwolla](https://www.dwolla.com/)** for transaction handling, and Sentry for monitoring issues. This README file serves as a guide to set up, configure, and understand the Horizon project.
 
-A working demo can be found at: https://banking-nextjs-eight.vercel.app/
+> **A working demo can be found at: https://banking-nextjs-eight.vercel.app/**
 
 ## Features
 
