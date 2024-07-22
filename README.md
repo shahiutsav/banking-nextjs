@@ -143,10 +143,53 @@ Feel free to customize this README further to fit your project's specific detail
    ![home page](./screenshots/image.png)
 
 2. **Bank Accounts**
-   ![Bank Accounts](./screenshots/image-1.png)
+   ![bank accounts](./screenshots/image-1.png)
 
 3. **Transaction History**
    ![transaction history](./screenshots/image-2.png)
 
 4. **Transfer Funds**
-   ![alt text](./screenshots/image-3.png)
+   ![transfer funds](./screenshots/image-3.png)
+
+## Testing Guide
+
+Below are instructions for testing the Horizon prototype website. Please follow these steps to sign up and explore the functionalities integrated with Plaid's sandbox environment.
+
+### Sign Up Process
+
+#### 1. Account Registration:
+
+- Fill out the signup form with accurate information. The form is straightforward, but ensure that fields are completed as per the placeholders provided.
+- Sample user credentials that work:
+  ![Sign up credentials](./screenshots/Signup.png)
+
+#### 2. Linking to Plaid Sandbox Account:
+
+- After signing up, you'll be prompted to link a bank account. This process is in a sandbox environment, so no real banking details are required.
+- Select any bank from the list and proceed to log in.
+- When prompted to log in to the **`First Platypus bank`**, use the following credentials:
+
+  ```bash
+  # Username
+  user_good
+
+  # Password
+  pass_good
+  ```
+
+- For identity verification and account connection, follow the simulated steps as presented.
+  ![Verify Identity](./screenshots/verify-identity.png)
+  ![Verification Code](./screenshots/verification-code.png)
+
+  > **Note:** Due to regional limitations (Europe or US), connection processes may vary in speed based on your location.
+
+#### 3. Dashboard:
+
+- Upon completing the setup with Plaid and Dwolla, you will be redirected to your dashboard.
+- The dashboard will display simulated transactions and account balances for testing purposes.
+
+### Important Notes
+
+- **Prototype Status:** Horizon is a prototype with a primary focus on bank integration and transaction handling. Please be aware that there may be undiscovered issues, especially with form validations.
+
+- **Support:** While I won't be actively maintaining this project, I appreciate your efforts in testing. Your feedback on issues encountered will be valuable for future development.
