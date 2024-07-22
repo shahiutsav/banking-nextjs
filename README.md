@@ -2,6 +2,8 @@
 
 Horizon is a full-fledged banking and budgeting application built using the latest NextJS. It leverages **[Appwrite](https://appwrite.io/)** for the backend services, **[Plaid](https://plaid.com/)** for bank communication, **[Dwolla](https://www.dwolla.com/)** for transaction handling, and Sentry for monitoring issues. This README file serves as a guide to set up, configure, and understand the Horizon project.
 
+A working demo can be found at: https://banking-nextjs-eight.vercel.app/
+
 ## Features
 
 - **Bank Account Integration:** Connects with Plaid to securely fetch and display bank account information.
@@ -123,7 +125,7 @@ Contributions are welcome! If you'd like to contribute to Horizon, please fork t
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -134,3 +136,17 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Sentry - Real-Time Error Tracking
 
 Feel free to customize this README further to fit your project's specific details and branding. Happy coding with Horizon! 🌅
+
+## Screenshots
+
+1. **Dashboard**
+   ![home page](./screenshots/image.png)
+
+2. **Bank Accounts**
+   ![Bank Accounts](./screenshots/image-1.png)
+
+3. **Transaction History**
+   ![transaction history](./screenshots/image-2.png)
+
+4. **Transfer Funds**
+   ![alt text](./screenshots/image-3.png)
